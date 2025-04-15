@@ -1,8 +1,38 @@
-* {
-    background-color: hsl(160, 71%, 84%);
-    font-family: "Segoe UI", "Helvetica", sans-serif;  
+html {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+*,
+* ::before,
+* ::after {
+    box-sizing: inherit;  
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0px auto;
+    background-color: rgba(240, 187, 177, 0.973);
+    padding: 20px;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1 {
     text-align: center;
     color: rgb(22, 22, 22);
+    margin-bottom: 15px;
+}
+
+h2,
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

@@ -1,8 +1,55 @@
-* {
-    background-color: #f1d6b4;
-    font-family: "Segoe UI", "Helvetica", sans-serif;
+html {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* height: 100vh; */
 }
+
+
+*,
+* ::before,
+* ::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    /* outline: 1px dotted red; */
+}
+
+.container {
+    max-width: 980px;
+    /* height: 100vh; */
+    margin: 0px auto;
+    background-color: #f1d6b4;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+}
+
+/* THIS IS NOT A VALID SELECTOR FOR CENTERING THE IMAGE. THE IMAGE IS CENTERED BY THE PRECEDING SELECTOR */
+/* .image-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} */
+
 h1 {
     text-align: center;
     color: rgb(22, 22, 22);
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+p, 
+ul,
+ol {
+    padding: 20px;
 }

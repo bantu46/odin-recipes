@@ -1,7 +1,47 @@
-* {
+html {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: solid red 1px; */
+}
+
+*,
+*::before,
+*::after {   
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    /* outline: 1px dotted red; */
+}
+
+.container {
+    max-width: 980px;
+    height: 100vh;
+    margin: 0 auto;
     background-color: rgb(193, 241, 241);
 }
+
 h1 {
     text-align: center;
     color: rgb(22, 22, 22);
+    margin-bottom: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    background: rgb(235, 235, 149);
+    padding: 15px;
+    color: #070707;
+}
+
+.recipe-links {
+    text-align: center; /* ALIGNS THE LINKS TO THE CENTER OF THE PAGE WITHOUT USING FLEX*/
 }
